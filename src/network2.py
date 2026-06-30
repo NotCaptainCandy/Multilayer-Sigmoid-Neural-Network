@@ -183,7 +183,7 @@ class Network(object):
                 evaluation_accuracy.append(accuracy)
                 print("Accuracy on evaluation data: {} / {}".format(
                     self.accuracy(evaluation_data), n_data))
-            print
+            print()
         return evaluation_cost, evaluation_accuracy, \
             training_cost, training_accuracy
 

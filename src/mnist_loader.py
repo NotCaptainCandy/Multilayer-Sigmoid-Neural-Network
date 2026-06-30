@@ -20,8 +20,6 @@ def load_data():
     """Return the MNIST data as a tuple containing the training data,
     the validation data, and the test data.
 
-
-print(load_data_wrapper()[0])
     The ``training_data`` is returned as a tuple with two entries.
     The first entry contains the actual training images.  This is a
     numpy ndarray with 50,000 entries.  Each entry is, in turn, a
